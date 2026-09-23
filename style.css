@@ -54,3 +54,32 @@ body {
     line-height: 1.6;
     font-size: 18px;
 }
+/* Education Section */
+
+#education {
+    min-height: 60vh;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.education-item {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+.education-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
