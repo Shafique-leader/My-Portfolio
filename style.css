@@ -83,3 +83,80 @@ body {
     font-size: 18px;
     margin-bottom: 5px;
 }
+/* Skills Section */
+
+#skills {
+    min-height: 60vh;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 250px;
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+}
+
+.skill h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.skill p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Projects Section */
+
+#projects {
+    min-height: 70vh;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 280px;
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
