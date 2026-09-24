@@ -18,7 +18,9 @@ contactForm.addEventListener("submit", function(event) {
 
     } else {
 
-        alert("Thank you, " + name + "! Your message has been received.");
+         alert("Thank you, " + name + "! Your message has been received.");
+
+         contactForm.reset();
 
     }
 
@@ -38,3 +40,12 @@ viewWorkButton.addEventListener("click", function() {
     });
 
 });
+function viewPortfolio() {
+    alert("You are already viewing my Portfolio Website!. More projects are in the pipeline");
+}
+function viewAmazon() {
+    alert("comming soon");
+}
+function viewJavaScript() {
+    alert("comming soon");
+}

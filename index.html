@@ -1,4 +1,3 @@
-<!-- Home Section -->
  <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +10,23 @@
 </head>
 
 <body>
+<!-- Navigation Bar -->
+<nav class="navbar">
 
+    <img src="shafique.png" alt="Shafique Logo" class="logo">
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+<!-- Home Section -->
     <section id="home">
 
         <h1>I'm Shafique</h1>
@@ -86,26 +101,7 @@
 
     <h2>My Skills</h2>
 
-    <div class="skills-container">
-
-        <div class="skill">
-            <h3>HTML</h3>
-            <p>Building website structure</p>
-        </div>
-
-        <div class="skill">
-            <h3>CSS</h3>
-            <p>Designing and styling websites</p>
-        </div>
-
-        <div class="skill">
-            <h3>JavaScript</h3>
-            <p>Adding functionality to websites</p>
-        </div>
-<!-- Skills Section -->
-<section id="skills">
-
-    <h2>My Skills</h2>
+    <section id="skills">
 
     <div class="skills-container">
 
@@ -201,7 +197,7 @@
                 HTML, CSS and JavaScript.
             </p>
 
-            <button>View Project</button>
+           <button onclick="viewPortfolio()">View Project</button>
         </div>
 
 
@@ -213,7 +209,7 @@
                 created using HTML and CSS.
             </p>
 
-            <button>View Project</button>
+            <button onclick="viewAmazon()">View Project</button>
         </div>
 
 
@@ -225,7 +221,7 @@
                 learning functions, loops and objects.
             </p>
 
-            <button>View Project</button>
+         <button onclick="viewJavaScript()">View Project</button>
         </div>
 
     </div>
@@ -263,6 +259,18 @@
         ></textarea>
 
         <button type="submit">Send Message</button>
+        <p>
+    Email me:
+    <a href="mailto:leaders2025pk@gmail.com">
+        leaders2025pk@gmail.com
+    </a>
+</p>
+<p>
+    Phone:
+    <a href="tel:+923003948450">
+        +92 300 3948450
+    </a>
+</p>
 
     </form>
 
@@ -270,7 +278,14 @@
     <script src="script.js"></script>
 
 
+<!-- Footer -->
+<footer>
 
+    <p>
+        © 2026 Shafique. All Rights Reserved.
+    </p>
+
+</footer>
 </body>
 
 </html>

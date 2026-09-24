@@ -279,3 +279,105 @@ body {
     }
 
 }
+/* ================================
+   Button Styling
+   ================================ */
+
+button {
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* ================================
+   Card Styling
+   ================================ */
+
+.skill,
+.service,
+.project {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* ================================
+   Home Section Styling
+   ================================ */
+
+#home {
+    background-color: #f5f5f5;
+}
+
+#home button {
+    margin-top: 10px;
+}
+/* ================================
+   Navigation Bar
+   ================================ */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 50px;
+    background-color: #222;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+}
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+#contact p {
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+#contact p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact p a:hover {
+    text-decoration: underline;
+}
