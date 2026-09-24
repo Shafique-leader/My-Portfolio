@@ -199,3 +199,83 @@ body {
     border: none;
     cursor: pointer;
 }
+#services {
+    min-height: 60vh;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 280px;
+    padding: 30px 20px;
+    border: 1px solid #ddd;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* ================================
+   Responsive Design - Mobile
+   ================================ */
+
+@media (max-width: 600px) {
+
+    /* Home Section */
+    #home h1 {
+        font-size: 35px;
+    }
+
+    #home h2 {
+        font-size: 24px;
+    }
+
+    #home p {
+        font-size: 16px;
+    }
+
+
+    /* Skills Section */
+    .skill {
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+    /* Services Section */
+    .service {
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+    /* Projects Section */
+    .project {
+        width: 100%;
+        max-width: 350px;
+    }
+
+
+    /* Contact Section */
+    #contact-form {
+        width: 100%;
+    }
+
+}
