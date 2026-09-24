@@ -381,3 +381,14 @@ button:hover {
 #contact p a:hover {
     text-decoration: underline;
 }
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
