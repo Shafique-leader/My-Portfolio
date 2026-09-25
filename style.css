@@ -392,3 +392,10 @@ footer p {
     margin: 0;
     font-size: 15px;
 }
+#home img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+  
+}
